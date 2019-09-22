@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+
+}
+h1
+{
+  color: white;
+  /* border-top: 0px; */
+  margin-top: 0px;
+  padding-top: 0px;
+}
+p{
+  color: grey;
+}
+h2
+{
+  color: grey;
+}
+.TopHeader
+{
+  display: flex;
+  position: fixed;
+  margin-top: 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 210px;
+  position: fixed;
+  font-size: 200px;
+  font-family: 'Codystar', cursive;
+  /* border: 1px solid grey; */
+  color: white;
+background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  margin-bottom: 200px;
+  z-index: 1; /* Stay on top */
+}
+
+nav{
+  margin-top: 210px;
+  /* border: 1px solid white; */
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 220px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  overflow-z: hidden; /* Disable horizontal scroll */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: start;
+}
+
+.button{
+  /* border: 1px solid white; */
+  background-color: black;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+.button a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: 'Codystar', bold ;
+  font-size: 40px;
+  color: #818181;
+  display: block;
+}
+.button a:hover {
+  color: #f1f1f1;
+}
+/* Main Window */
+.mainWindow {
+  /* background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"); */
+  /* border: 1px solid red; */
+  position: fixed;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 220px; /* Same as the width of the sidebar */
+  padding-top:  160px;
+  padding-left: 210px;
+  padding-right: 180px;
+
+  height: 80%;
+}
+.main {
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px; /* Same as the width of the sidebar */
+  padding: 5px;
+  height: 100%;
+}
+.main section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 80%;
+  margin-top: 30px;
+  padding: 30px;
+  padding-top: 5px;
+  /* border: 1px solid #666666; */
+}
+
+img{
+  width: 60%;
+}
+.top a
+{
+    text-decoration-color: white;
+  color: white;
+
+}
+.mailaddress a
+{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 25px;
+  color: #818181;
+}
+
+@media (max-width: 768px) {
+
+.TopHeader{
+  height: 20px;
+  font-size: 20px;
+}
+nav{
+  margin-top: 22px;
+  width: 100%
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  z-index: 1; /* Stay on top */
+  overflow-z: hidden; /* Disable horizontal scroll */
+  flex-direction: row;
+
+  justify-content: left;
+
+}
+img{
+  display: none;
+}
+
+.main {
+  margin-left: 5px;
+    padding: 50px 10px;
+}
+  .button a {
+    font-size: 20px;
+      color: #f1f1f1;
+}
+.button a:hover {
+  color: #d9d9d9;
